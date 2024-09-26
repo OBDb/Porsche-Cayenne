@@ -1,2 +1,23 @@
-{ "commands": []
+{ "commands": [
+{ "hdr": "70B", "rax": "775", "cmd": {"22": "18A0"}, "freq": 5,
+  "signals": [
+    {"id": "CAYENNE_TP_FR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 63.75, "div": 4, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+  ]},
+{ "hdr": "70B", "rax": "775", "cmd": {"22": "18A1"}, "freq": 5,
+  "signals": [
+    {"id": "CAYENNE_TP_FL", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 63.75, "div": 4, "unit": "bars" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "70B", "rax": "775", "cmd": {"22": "18A2"}, "freq": 5,
+  "signals": [
+    {"id": "CAYENNE_TP_BL", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 63.75, "div": 4, "unit": "bars" }, "name": "Back left tire pressure"}
+  ]},
+{ "hdr": "70B", "rax": "775", "cmd": {"22": "18A3"}, "freq": 5,
+  "signals": [
+    {"id": "CAYENNE_TP_BR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 63.75, "div": 4, "unit": "bars" }, "name": "Back right tire pressure"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "cmd": {"22": "27C4"}, "freq": 5,
+  "signals": [
+    {"id": "CAYENNE_WNDSHLD_TEMP", "path": "Climate", "fmt": { "len": 8, "max": 108.08, "min": -38.8, "mul": 0.576, "add": -38.8, "unit": "celsius" }, "name": "Windshield temperature"}
+  ]}
+]
 }
