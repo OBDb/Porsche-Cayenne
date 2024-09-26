@@ -9,11 +9,11 @@
   ]},
 { "hdr": "70B", "rax": "775", "cmd": {"22": "18A2"}, "freq": 5,
   "signals": [
-    {"id": "CAYENNE_TP_BL", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 63.75, "div": 4, "unit": "bars" }, "name": "Back left tire pressure"}
+    {"id": "CAYENNE_TP_BL", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 63.75, "div": 4, "unit": "bars" }, "name": "Back left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
 { "hdr": "70B", "rax": "775", "cmd": {"22": "18A3"}, "freq": 5,
   "signals": [
-    {"id": "CAYENNE_TP_BR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 63.75, "div": 4, "unit": "bars" }, "name": "Back right tire pressure"}
+    {"id": "CAYENNE_TP_BR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 63.75, "div": 4, "unit": "bars" }, "name": "Back right tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
 { "hdr": "746", "rax": "7B0", "cmd": {"22": "27C4"}, "freq": 5,
   "signals": [
