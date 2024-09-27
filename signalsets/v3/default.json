@@ -15,6 +15,10 @@
   "signals": [
     {"id": "CAYENNE_TP_RR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "unit": "bars" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2353"}, "freq": 3600,
+  "signals": [
+    {"id": "CAYENNE_CRASH_CNT_FRNT", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, front"}
+  ]},
 { "hdr": "715", "rax": "77F", "cmd": {"22": "2354"}, "freq": 3600,
   "signals": [
     {"id": "CAYENNE_CRASH_CNT_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, driver side"}
