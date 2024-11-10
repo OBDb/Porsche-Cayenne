@@ -2,7 +2,7 @@
 
 This repository contains signal set configurations for the Porsche Cayenne, organized by model year and version. The files are structured to allow for easy differentiation between model generations and variants, ensuring accurate signal mapping for each version of the Porsche Cayenne.
 
-## About Porsche Cayenne Generations
+## Generations
 
 The Porsche Cayenne has evolved through three generations, transforming from a revolutionary concept into a cornerstone of Porsche's lineup:
 
