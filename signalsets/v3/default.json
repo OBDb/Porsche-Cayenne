@@ -15,6 +15,14 @@
   "signals": [
     {"id": "CAYENNE_TP_RR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "unit": "bars" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
+{ "hdr": "714", "rax": "77E", "cmd": {"22": "2203"}, "freq": 5,
+  "signals": [
+    {"id": "CAYENNE_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer", "description": "Value is unconfirmed. If this parameter is responding with a correct value, please take a screenshot of the parameter's detail page and send it to support@clutch.engineering"}
+  ]},
+{ "hdr": "714", "rax": "77E", "cmd": {"22": "22B0"}, "freq": 5,
+  "signals": [
+    {"id": "CAYENNE_FLI_VOL", "path": "Fuel", "fmt": {"bix": 336, "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Fuel level (volume)", "description": "Value is unconfirmed. If this parameter is responding with a correct value, please take a screenshot of the parameter's detail page and send it to support@clutch.engineering"}
+  ]},
 { "hdr": "715", "rax": "77F", "cmd": {"22": "2354"}, "freq": 3600,
   "signals": [
     {"id": "CAYENNE_CRASH_CNT_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, driver side"}
