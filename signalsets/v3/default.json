@@ -15,31 +15,31 @@
   "signals": [
     {"id": "CAYENNE_TP_RR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "unit": "bars" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "710", "rax": "7E9", "dbg": true, "cmd": {"22": "2A07"}, "freq": 1,
+{ "hdr": "710", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"22": "2A07"}, "freq": 1,
   "signals": [
     {"id": "CAYENNE_SSB_V", "path": "Battery", "fmt": { "len": 16, "max": 69.54, "min": 4, "div": 100, "add": 4, "unit": "volts" }, "name": "Start/stop battery voltage"}
   ]},
-{ "hdr": "710", "rax": "7E9", "dbg": true, "cmd": {"22": "2A0A"}, "freq": 1,
+{ "hdr": "710", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"22": "2A0A"}, "freq": 1,
   "signals": [
     {"id": "CAYENNE_SSB_SENSOR_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Start/stop battery sensor temperature"}
   ]},
-{ "hdr": "710", "rax": "7E9", "dbg": true, "cmd": {"22": "2A0B"}, "freq": 1,
+{ "hdr": "710", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"22": "2A0B"}, "freq": 1,
   "signals": [
     {"id": "CAYENNE_SSB_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Start/stop battery sensor temperature"}
   ]},
-{ "hdr": "710", "rax": "7E9", "dbg": true, "cmd": {"22": "2A0C"}, "freq": 1,
+{ "hdr": "710", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"22": "2A0C"}, "freq": 1,
   "signals": [
     {"id": "CAYENNE_SSB_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Start/stop battery state of charge"}
   ]},
-{ "hdr": "710", "rax": "7E9", "dbg": true, "cmd": {"22": "2A0E"}, "freq": 5,
+{ "hdr": "710", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"22": "2A0E"}, "freq": 5,
   "signals": [
     {"id": "CAYENNE_SSB_R", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 2, "div": 10, "unit": "milliohms" }, "name": "Start/stop battery resistance"}
   ]},
-{ "hdr": "710", "rax": "7E9", "dbg": true, "cmd": {"22": "2A0F"}, "freq": 5,
+{ "hdr": "710", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"22": "2A0F"}, "freq": 5,
   "signals": [
     {"id": "CAYENNE_SSB_AH", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "ampereHours" }, "name": "Start/stop battery charge"}
   ]},
-{ "hdr": "710", "rax": "7E9", "dbg": true, "cmd": {"22": "2A10"}, "freq": 1,
+{ "hdr": "710", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"22": "2A10"}, "freq": 1,
   "signals": [
     {"id": "CAYENNE_SSB_V_REST", "path": "Battery", "fmt": { "len": 16, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
   ]},
