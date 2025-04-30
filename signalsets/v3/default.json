@@ -41,7 +41,7 @@
   ]},
 { "hdr": "710", "rax": "77A", "dbg": true, "cmd": {"22": "2A10"}, "freq": 1,
   "signals": [
-    {"id": "CAYENNE_SSB_V_REST", "path": "Battery", "fmt": { "len": 16, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
+    {"id": "CAYENNE_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
   ]},
 { "hdr": "714", "rax": "77E", "dbg": true, "cmd": {"22": "2203"}, "freq": 5,
   "signals": [
