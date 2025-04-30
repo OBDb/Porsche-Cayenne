@@ -1,0 +1,49 @@
+command_id: 746.7B0.2227C4
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7B010086227C47DA751
+    7B021F85AAAAAAAAAAA
+  expected_values:
+    CAYENNE_WNDSHLD_TEMP: 33.2
+- response: |-
+    7B010086227C47F2741
+    7B021F85EAAAAAAAAAA
+  expected_values:
+    CAYENNE_WNDSHLD_TEMP: 34.352
+- response: |-
+    7B010086227C47FE681
+    7B021EC67AAAAAAAAAA
+  expected_values:
+    CAYENNE_WNDSHLD_TEMP: 34.352
+- response: |-
+    7B010086227C480E681
+    7B021EC6CAAAAAAAAAA
+  expected_values:
+    CAYENNE_WNDSHLD_TEMP: 34.928
+- response: |-
+    7B010086227C480E691
+    7B021EC68AAAAAAAAAA
+  expected_values:
+    CAYENNE_WNDSHLD_TEMP: 34.928
+- response: |-
+    7B010086227C480E691
+    7B021EC69AAAAAAAAAA
+  expected_values:
+    CAYENNE_WNDSHLD_TEMP: 34.928
+- response: |-
+    7B010086227C480E691
+    7B021EC6AAAAAAAAAAA
+  expected_values:
+    CAYENNE_WNDSHLD_TEMP: 34.928
+- response: |-
+    7B010086227C48126A1
+    7B021F068AAAAAAAAAA
+  expected_values:
+    CAYENNE_WNDSHLD_TEMP: 35.504
+- response: |-
+    7B010086227C481E6A1
+    7B021F06EAAAAAAAAAA
+  expected_values:
+    CAYENNE_WNDSHLD_TEMP: 35.504

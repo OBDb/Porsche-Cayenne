@@ -1,0 +1,14 @@
+command_id: 70B.775.2218A2
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    775100C6218A224F9F1
+    775210E226E3A64FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.75
+- response: |-
+    775100C6218A224F9F1
+    775210E22FFA764FFAA
+  expected_values:
+    CAYENNE_TP_RL: 6.375
