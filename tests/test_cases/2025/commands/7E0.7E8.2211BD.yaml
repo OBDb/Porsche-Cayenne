@@ -5,6 +5,12 @@ test_cases:
 - response: 7E8056211BD0D96
   expected_values:
     CAYENNE_OIL_LEVEL_WARN: 1.3912
+- response: 7E8056211BD0D9E
+  expected_values:
+    CAYENNE_OIL_LEVEL_WARN: 1.3944
+- response: 7E8056211BD0DAF
+  expected_values:
+    CAYENNE_OIL_LEVEL_WARN: 1.4012
 - response: 7E8056211BD0DB7
   expected_values:
     CAYENNE_OIL_LEVEL_WARN: 1.4044

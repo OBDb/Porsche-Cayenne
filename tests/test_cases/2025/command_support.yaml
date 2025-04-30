@@ -68,6 +68,14 @@ supported_commands_by_ecu:
   - 0146:AAT
   - 0149:APP_D
 unsupported_commands_by_ecu:
+  710:
+  - 710.7E9.222A07
+  - 710.7E9.222A0A
+  - 710.7E9.222A0B
+  - 710.7E9.222A0C
+  - 710.7E9.222A0E
+  - 710.7E9.222A0F
+  - 710.7E9.222A10
   714:
   - 714.77E.222203
   - 714.77E.2222B0

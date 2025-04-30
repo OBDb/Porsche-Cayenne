@@ -3,6 +3,16 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
+    7B010086227C47DA751
+    7B021F85AAAAAAAAAAA
+  expected_values:
+    CAYENNE_WNDSHLD_TEMP: 33.2
+- response: |-
+    7B010086227C47F2741
+    7B021F85EAAAAAAAAAA
+  expected_values:
+    CAYENNE_WNDSHLD_TEMP: 34.352
+- response: |-
     7B010086227C47FE681
     7B021EC67AAAAAAAAAA
   expected_values:
