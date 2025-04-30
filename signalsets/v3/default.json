@@ -43,27 +43,19 @@
   "signals": [
     {"id": "CAYENNE_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
   ]},
-{ "hdr": "714", "rax": "77E", "dbg": true, "cmd": {"22": "2203"}, "freq": 5,
-  "signals": [
-    {"id": "CAYENNE_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer", "description": "Value is unconfirmed. If this parameter is responding with a correct value, please take a screenshot of the parameter's detail page and send it to support@clutch.engineering"}
-  ]},
-{ "hdr": "714", "rax": "77E", "dbg": true, "cmd": {"22": "22B0"}, "freq": 5,
-  "signals": [
-    {"id": "CAYENNE_FLI_VOL", "path": "Fuel", "fmt": {"bix": 336, "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Fuel level (volume)", "description": "Value is unconfirmed. If this parameter is responding with a correct value, please take a screenshot of the parameter's detail page and send it to support@clutch.engineering"}
-  ]},
-{ "hdr": "715", "rax": "77F", "dbg": true, "cmd": {"22": "2354"}, "freq": 3600,
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2354"}, "freq": 3600,
   "signals": [
     {"id": "CAYENNE_CRASH_CNT_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, driver side"}
   ]},
-{ "hdr": "715", "rax": "77F", "dbg": true, "cmd": {"22": "2355"}, "freq": 3600,
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2355"}, "freq": 3600,
   "signals": [
     {"id": "CAYENNE_CRASH_CNT_PSNGR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, passenger side"}
   ]},
-{ "hdr": "715", "rax": "77F", "dbg": true, "cmd": {"22": "2356"}, "freq": 3600,
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2356"}, "freq": 3600,
   "signals": [
     {"id": "CAYENNE_CRASH_CNT_REAR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rear"}
   ]},
-{ "hdr": "715", "rax": "77F", "dbg": true, "cmd": {"22": "2357"}, "freq": 3600,
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2357"}, "freq": 3600,
   "signals": [
     {"id": "CAYENNE_CRASH_CNT_ROLL", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rollover"}
   ]},
@@ -71,15 +63,15 @@
   "signals": [
     {"id": "CAYENNE_WNDSHLD_TEMP", "path": "Climate", "fmt": { "len": 8, "max": 108.08, "min": -38.8, "mul": 0.576, "add": -38.8, "unit": "celsius" }, "name": "Windshield temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BA"}, "freq": 15,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BA"}, "freq": 15,
   "signals": [
-    {"id": "CAYENNE_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level"}
+    {"id": "CAYENNE_OIL_LEVEL", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BD"}, "freq": 15,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BD"}, "freq": 15,
   "signals": [
-    {"id": "CAYENNE_OIL_LEVEL_WARN", "path": "Engine", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level warning threshold"}
+    {"id": "CAYENNE_OIL_LEVEL_WARN", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level warning threshold"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BE"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 1,
   "signals": [
     {"id": "CAYENNE_EOT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine oil temperature", "description": "Scaling is unknown, needs further validation."}
   ]},
