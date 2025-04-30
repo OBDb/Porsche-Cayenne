@@ -29,7 +29,7 @@
   ]},
 { "hdr": "710", "rax": "77A", "dbg": true, "cmd": {"22": "2A0C"}, "freq": 1,
   "signals": [
-    {"id": "CAYENNE_SSB_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Start/stop battery state of charge"}
+    {"id": "CAYENNE_SSB_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Start/stop battery state of charge", "suggestedMetric": "stateOfCharge"}
   ]},
 { "hdr": "710", "rax": "77A", "dbg": true, "cmd": {"22": "2A0E"}, "freq": 5,
   "signals": [
