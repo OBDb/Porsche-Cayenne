@@ -1,0 +1,10 @@
+command_id: 710.77A.222A0B
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 77A04622A0B3C
+  expected_values:
+    CAYENNE_SSB_T: 20
+- response: 77A04622A0B3D
+  expected_values:
+    CAYENNE_SSB_T: 21

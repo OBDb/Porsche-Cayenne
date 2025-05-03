@@ -1,0 +1,193 @@
+command_id: 710.77A.222A07
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 77A05622A071F44
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071F6A
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071F70
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071F73
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071F79
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071F83
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071F8A
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071F92
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071F9D
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071FA3
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071FAA
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071FB4
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071FB5
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071FBC
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071FC5
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071FCD
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A071FF6
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072038
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072070
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0720A2
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0720AC
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0720E0
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A07212A
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072167
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0721E6
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A07227A
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072284
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072373
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0725F5
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0728CC
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A07291F
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072923
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072925
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072926
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072929
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A07292D
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A07292E
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A07292F
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072936
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072946
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072955
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072958
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072963
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A07296A
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A07296F
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072972
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072974
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A07297C
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A07297D
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A07297E
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A07297F
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A072997
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A07299A
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0729A3
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0729A5
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0729A9
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0729B7
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0729BC
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0729BE
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0729BF
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0729C7
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0729CA
+  expected_values:
+    CAYENNE_SSB_V: 69.54
+- response: 77A05622A0729E1
+  expected_values:
+    CAYENNE_SSB_V: 69.54

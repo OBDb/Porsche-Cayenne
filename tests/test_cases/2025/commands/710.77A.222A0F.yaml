@@ -1,0 +1,31 @@
+command_id: 710.77A.222A0F
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 77A04622A0F24
+  expected_values:
+    CAYENNE_SSB_AH: 36
+- response: 77A04622A0F25
+  expected_values:
+    CAYENNE_SSB_AH: 37
+- response: 77A04622A0F26
+  expected_values:
+    CAYENNE_SSB_AH: 38
+- response: 77A04622A0F2A
+  expected_values:
+    CAYENNE_SSB_AH: 42
+- response: 77A04622A0F2B
+  expected_values:
+    CAYENNE_SSB_AH: 43
+- response: 77A04622A0F2C
+  expected_values:
+    CAYENNE_SSB_AH: 44
+- response: 77A04622A0F2D
+  expected_values:
+    CAYENNE_SSB_AH: 45
+- response: 77A04622A0F2E
+  expected_values:
+    CAYENNE_SSB_AH: 46
+- response: 77A04622A0F31
+  expected_values:
+    CAYENNE_SSB_AH: 49

@@ -4,11 +4,95 @@ extended_addressing_enabled: false
 test_cases:
 - response: |-
     775100C6218A224F9F1
+    775210E226B3664FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.675
+- response: |-
+    775100C6218A224F9F1
+    775210E226B3764FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.675
+- response: |-
+    775100C6218A224F9F1
+    775210E226B3864FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.675
+- response: |-
+    775100C6218A224F9F1
+    775210E226C3764FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.7
+- response: |-
+    775100C6218A224F9F1
+    775210E226C3964FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.7
+- response: |-
+    775100C6218A224F9F1
+    775210E226D3864FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.725
+- response: |-
+    775100C6218A224F9F1
+    775210E226E3964FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.75
+- response: |-
+    775100C6218A224F9F1
     775210E226E3A64FFAA
   expected_values:
     CAYENNE_TP_RL: 2.75
 - response: |-
     775100C6218A224F9F1
-    775210E22FFA764FFAA
+    775210E226F3C64FFAA
   expected_values:
-    CAYENNE_TP_RL: 6.375
+    CAYENNE_TP_RL: 2.775
+- response: |-
+    775100C6218A224F9F1
+    775210E22703B64FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.8
+- response: |-
+    775100C6218A224F9F1
+    775210E22703C64FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.8
+- response: |-
+    775100C6218A224F9F1
+    775210E22703D64FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.8
+- response: |-
+    775100C6218A224F9F1
+    775210E22703E64FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.8
+- response: |-
+    775100C6218A224F9F1
+    775210E22713E64FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.825
+- response: |-
+    775100C6218A224F9F1
+    775210E22713F64FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.825
+- response: |-
+    775100C6218A224F9F1
+    775210E22723F64FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.85
+- response: |-
+    775100C6218A224F9F1
+    775210E22724064FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.85
+- response: |-
+    775100C6218A224F9F1
+    775210E22734064FFAA
+  expected_values:
+    CAYENNE_TP_RL: 2.875
+- response: |-
+    775100C6218A224F9F1
+    775210E22FFA764FFAA
+  expected_values: {}
