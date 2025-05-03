@@ -1,0 +1,7 @@
+command_id: 710.77A.222A0A
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 77A04622A0A40
+  expected_values:
+    CAYENNE_SSB_SENSOR_T: 24

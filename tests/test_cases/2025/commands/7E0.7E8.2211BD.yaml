@@ -2,27 +2,66 @@ command_id: 7E0.7E8.2211BD
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7E8056211BD0CE3
+  expected_values:
+    CAYENNE_OIL_LEVEL_WARN: 1.3196
+- response: 7E8056211BD0D6C
+  expected_values:
+    CAYENNE_OIL_LEVEL_WARN: 1.3744
+- response: 7E8056211BD0D71
+  expected_values:
+    CAYENNE_OIL_LEVEL_WARN: 1.3764
+- response: 7E8056211BD0D75
+  expected_values:
+    CAYENNE_OIL_LEVEL_WARN: 1.378
+- response: 7E8056211BD0D79
+  expected_values:
+    CAYENNE_OIL_LEVEL_WARN: 1.3796
+- response: 7E8056211BD0D7D
+  expected_values:
+    CAYENNE_OIL_LEVEL_WARN: 1.3812
 - response: 7E8056211BD0D96
   expected_values:
     CAYENNE_OIL_LEVEL_WARN: 1.3912
 - response: 7E8056211BD0D9E
   expected_values:
     CAYENNE_OIL_LEVEL_WARN: 1.3944
+- response: 7E8056211BD0DA3
+  expected_values:
+    CAYENNE_OIL_LEVEL_WARN: 1.3964
+- response: 7E8056211BD0DA7
+  expected_values:
+    CAYENNE_OIL_LEVEL_WARN: 1.398
+- response: 7E8056211BD0DAB
+  expected_values:
+    CAYENNE_OIL_LEVEL_WARN: 1.3996
 - response: 7E8056211BD0DAF
   expected_values:
     CAYENNE_OIL_LEVEL_WARN: 1.4012
 - response: 7E8056211BD0DB7
   expected_values:
     CAYENNE_OIL_LEVEL_WARN: 1.4044
+- response: 7E8056211BD0DC0
+  expected_values:
+    CAYENNE_OIL_LEVEL_WARN: 1.408
 - response: 7E8056211BD0DC4
   expected_values:
     CAYENNE_OIL_LEVEL_WARN: 1.4096
+- response: 7E8056211BD0DCC
+  expected_values:
+    CAYENNE_OIL_LEVEL_WARN: 1.4128
+- response: 7E8056211BD0DD5
+  expected_values:
+    CAYENNE_OIL_LEVEL_WARN: 1.4164
 - response: 7E8056211BD0DD9
   expected_values:
     CAYENNE_OIL_LEVEL_WARN: 1.418
 - response: 7E8056211BD0DDD
   expected_values:
     CAYENNE_OIL_LEVEL_WARN: 1.4196
+- response: 7E8056211BD0DE1
+  expected_values:
+    CAYENNE_OIL_LEVEL_WARN: 1.4212
 - response: 7E8056211BD0DF6
   expected_values:
     CAYENNE_OIL_LEVEL_WARN: 1.4296
