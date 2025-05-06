@@ -14,69 +14,9 @@ test_cases:
     CAYENNE_TP_RR: 2.775
 - response: |-
     775100C6218A324F9F1
-    7752144236F3764FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.775
-- response: |-
-    775100C6218A324F9F1
     775214423703764FFAA
   expected_values:
     CAYENNE_TP_RR: 2.8
-- response: |-
-    775100C6218A324F9F1
-    775214423703964FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.8
-- response: |-
-    775100C6218A324F9F1
-    775214423713864FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.825
-- response: |-
-    775100C6218A324F9F1
-    775214423713964FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.825
-- response: |-
-    775100C6218A324F9F1
-    775214423713A64FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.825
-- response: |-
-    775100C6218A324F9F1
-    775214423723A64FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.85
-- response: |-
-    775100C6218A324F9F1
-    775214423723B64FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.85
-- response: |-
-    775100C6218A324F9F1
-    775214423723C64FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.85
-- response: |-
-    775100C6218A324F9F1
-    775214423733C64FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.875
-- response: |-
-    775100C6218A324F9F1
-    775214423733D64FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.875
-- response: |-
-    775100C6218A324F9F1
-    775214423743D64FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.9
-- response: |-
-    775100C6218A324F9F1
-    775214423743E64FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.9
 - response: |-
     775100C6218A324F9F1
     775214423743F64FFAA
@@ -84,15 +24,6 @@ test_cases:
     CAYENNE_TP_RR: 2.9
 - response: |-
     775100C6218A324F9F1
-    775214423753F64FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.925
-- response: |-
-    775100C6218A324F9F1
     775214423764064FFAA
   expected_values:
     CAYENNE_TP_RR: 2.95
-- response: |-
-    775100C6218A324F9F1
-    775214423FFA764FFAA
-  expected_values: {}

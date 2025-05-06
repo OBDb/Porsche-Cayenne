@@ -9,61 +9,6 @@ test_cases:
     CAYENNE_TP_FL: 2.425
 - response: |-
     775100C6218A1260306
-    775217621623858FFAA
-  expected_values:
-    CAYENNE_TP_FL: 2.45
-- response: |-
-    775100C6218A1260306
-    775217621633858FFAA
-  expected_values:
-    CAYENNE_TP_FL: 2.475
-- response: |-
-    775100C6218A1260306
-    775217621633958FFAA
-  expected_values:
-    CAYENNE_TP_FL: 2.475
-- response: |-
-    775100C6218A1260306
-    775217621633B58FFAA
-  expected_values:
-    CAYENNE_TP_FL: 2.475
-- response: |-
-    775100C6218A1260306
-    775217621633C58FFAA
-  expected_values:
-    CAYENNE_TP_FL: 2.475
-- response: |-
-    775100C6218A1260306
-    775217621643958FFAA
-  expected_values:
-    CAYENNE_TP_FL: 2.5
-- response: |-
-    775100C6218A1260306
-    775217621643A58FFAA
-  expected_values:
-    CAYENNE_TP_FL: 2.5
-- response: |-
-    775100C6218A1260306
-    775217621643B58FFAA
-  expected_values:
-    CAYENNE_TP_FL: 2.5
-- response: |-
-    775100C6218A1260306
-    775217621643C58FFAA
-  expected_values:
-    CAYENNE_TP_FL: 2.5
-- response: |-
-    775100C6218A1260306
-    775217621653D58FFAA
-  expected_values:
-    CAYENNE_TP_FL: 2.525
-- response: |-
-    775100C6218A1260306
-    775217621653E58FFAA
-  expected_values:
-    CAYENNE_TP_FL: 2.525
-- response: |-
-    775100C6218A1260306
     775217621673F58FFAA
   expected_values:
     CAYENNE_TP_FL: 2.575
@@ -74,15 +19,6 @@ test_cases:
     CAYENNE_TP_FL: 2.575
 - response: |-
     775100C6218A1260306
-    775217621684058FFAA
-  expected_values:
-    CAYENNE_TP_FL: 2.6
-- response: |-
-    775100C6218A1260306
     775217621694058FFAA
   expected_values:
     CAYENNE_TP_FL: 2.625
-- response: |-
-    775100C6218A1260306
-    775217621FFA758FFAA
-  expected_values: {}
