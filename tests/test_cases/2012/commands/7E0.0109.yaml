@@ -1,0 +1,22 @@
+command_id: 7E0.0109
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E803410974'
+  expected_values:
+    LONGFT2: -9.375
+- response: '7E803410975'
+  expected_values:
+    LONGFT2: -8.59375
+- response: '7E803410976'
+  expected_values:
+    LONGFT2: -7.8125
+- response: 7E80341097C
+  expected_values:
+    LONGFT2: -3.125
+- response: 7E80341097D
+  expected_values:
+    LONGFT2: -2.34375
+- response: '7E803410981'
+  expected_values:
+    LONGFT2: 0.78125
