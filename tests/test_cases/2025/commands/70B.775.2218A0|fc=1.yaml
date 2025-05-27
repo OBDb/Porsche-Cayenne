@@ -1,6 +1,4 @@
-command_id: 70B.775.2218A0
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
+command_id: 70B.775.2218A0|fc=1
 test_cases:
 - response: |-
     775100C6218A0260306

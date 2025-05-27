@@ -1,6 +1,4 @@
-command_id: 746.7B0.2227C4
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
+command_id: 746.7B0.2227C4|fc=1
 test_cases:
 - response: |-
     7B010086227C476A5A1
