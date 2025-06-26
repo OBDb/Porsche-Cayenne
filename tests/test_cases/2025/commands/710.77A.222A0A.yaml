@@ -1,5 +1,5 @@
 command_id: 710.77A.222A0A
 test_cases:
-- response: 77A04622A0A40
-  expected_values:
+- expected_values:
     CAYENNE_SSB_SENSOR_T: 24
+  response: 77A04622A0A40

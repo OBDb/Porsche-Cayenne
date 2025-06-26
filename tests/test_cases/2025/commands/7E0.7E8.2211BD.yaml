@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2211BD
 test_cases:
-- response: 7E8056211BD0CE3
-  expected_values:
+- expected_values:
     CAYENNE_OIL_LEVEL_WARN: 1.3196
-- response: 7E8056211BD0DF6
-  expected_values:
+  response: 7E8056211BD0CE3
+- expected_values:
     CAYENNE_OIL_LEVEL_WARN: 1.4296
-- response: 7E8056211BD0E17
-  expected_values:
+  response: 7E8056211BD0DF6
+- expected_values:
     CAYENNE_OIL_LEVEL_WARN: 1.4428
+  response: 7E8056211BD0E17

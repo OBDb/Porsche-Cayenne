@@ -1,5 +1,5 @@
 command_id: 7E1.7E9.220302
 test_cases:
-- response: 7E905620302013B
-  expected_values:
+- expected_values:
     CAYENNE_DRIVE_TIME: 78.75
+  response: 7E905620302013B

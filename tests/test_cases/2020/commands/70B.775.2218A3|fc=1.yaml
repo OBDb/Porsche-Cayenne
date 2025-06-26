@@ -1,0 +1,27 @@
+command_id: 70B.775.2218A3|fc=1
+test_cases:
+- expected_values:
+    CAYENNE_TP_RR: 2.45
+  response: |-
+    775100C6218A3234AD4
+    775215520624168FFAA
+- expected_values:
+    CAYENNE_TP_RR: 2.475
+  response: |-
+    775100C6218A3234AD4
+    775215520634068FFAA
+- expected_values:
+    CAYENNE_TP_RR: 2.65
+  response: |-
+    775100C6218A3234AD4
+    7752155206A4F68FFAA
+- expected_values:
+    CAYENNE_TP_RR: 3.175
+  response: |-
+    775100C6218A3234AD4
+    7752155207F5568FFAA
+- expected_values:
+    CAYENNE_TP_RR: 3.2
+  response: |-
+    775100C6218A3234AD4
+    775215520805668FFAA

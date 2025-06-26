@@ -1,52 +1,52 @@
 command_id: 746.7B0.2227C4|fc=1
 test_cases:
-- response: |-
+- expected_values:
+    CAYENNE_WNDSHLD_TEMP: 29.168
+  response: |-
     7B010086227C476A5A1
     7B021E05AAAAAAAAAAA
-  expected_values:
-    CAYENNE_WNDSHLD_TEMP: 29.168
-- response: |-
+- expected_values:
+    CAYENNE_WNDSHLD_TEMP: 29.744
+  response: |-
     7B010086227C4772601
     7B021E856AAAAAAAAAA
-  expected_values:
-    CAYENNE_WNDSHLD_TEMP: 29.744
-- response: |-
+- expected_values:
+    CAYENNE_WNDSHLD_TEMP: 30.32
+  response: |-
     7B010086227C4782551
     7B021DC5FAAAAAAAAAA
-  expected_values:
-    CAYENNE_WNDSHLD_TEMP: 30.32
-- response: |-
+- expected_values:
+    CAYENNE_WNDSHLD_TEMP: 31.472
+  response: |-
     7B010086227C47A26D1
     7B021F058AAAAAAAAAA
-  expected_values:
-    CAYENNE_WNDSHLD_TEMP: 31.472
-- response: |-
+- expected_values:
+    CAYENNE_WNDSHLD_TEMP: 33.2
+  response: |-
     7B010086227C47DE511
     7B021DC71AAAAAAAAAA
-  expected_values:
-    CAYENNE_WNDSHLD_TEMP: 33.2
-- response: |-
+- expected_values:
+    CAYENNE_WNDSHLD_TEMP: 33.776
+  response: |-
     7B010086227C47E2561
     7B021E070AAAAAAAAAA
-  expected_values:
-    CAYENNE_WNDSHLD_TEMP: 33.776
-- response: |-
+- expected_values:
+    CAYENNE_WNDSHLD_TEMP: 36.08
+  response: |-
     7B010086227C482A802
     7B0210062AAAAAAAAAA
-  expected_values:
-    CAYENNE_WNDSHLD_TEMP: 36.08
-- response: |-
+- expected_values:
+    CAYENNE_WNDSHLD_TEMP: 36.656
+  response: |-
     7B010086227C48367F2
     7B0210063AAAAAAAAAA
-  expected_values:
+- expected_values:
     CAYENNE_WNDSHLD_TEMP: 36.656
-- response: |-
+  response: |-
     7B010086227C483E7D1
     7B021FC65AAAAAAAAAA
-  expected_values:
-    CAYENNE_WNDSHLD_TEMP: 36.656
-- response: |-
+- expected_values:
+    CAYENNE_WNDSHLD_TEMP: 37.232
+  response: |-
     7B010086227C48427F2
     7B0210064AAAAAAAAAA
-  expected_values:
-    CAYENNE_WNDSHLD_TEMP: 37.232

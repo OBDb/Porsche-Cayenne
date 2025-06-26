@@ -1,14 +1,14 @@
 command_id: 7E1.7E9.222B1E
 test_cases:
-- response: 7E905622B1E0000
-  expected_values:
+- expected_values:
     CAYENNE_TIRE_RR_SPD: 0
-- response: 7E905622B1E0029
-  expected_values:
+  response: 7E905622B1E0000
+- expected_values:
     CAYENNE_TIRE_RR_SPD: 4.1
-- response: 7E905622B1E005D
-  expected_values:
+  response: 7E905622B1E0029
+- expected_values:
     CAYENNE_TIRE_RR_SPD: 9.3
-- response: 7E905622B1E006D
-  expected_values:
+  response: 7E905622B1E005D
+- expected_values:
     CAYENNE_TIRE_RR_SPD: 10.9
+  response: 7E905622B1E006D
