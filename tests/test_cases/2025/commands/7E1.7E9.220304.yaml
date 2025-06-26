@@ -1,5 +1,5 @@
 command_id: 7E1.7E9.220304
 test_cases:
-- response: '7E90462030413'
-  expected_values:
+- expected_values:
     CAYENNE_DRIVE_TIME_SPORT: 7.6
+  response: '7E90462030413'

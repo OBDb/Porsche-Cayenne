@@ -1,27 +1,27 @@
 command_id: 70B.775.2218A3|fc=1
 test_cases:
-- response: |-
+- expected_values:
+    CAYENNE_TP_RR: 2.75
+  response: |-
     775100C6218A324F9F1
     7752144236E3664FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.75
-- response: |-
+- expected_values:
+    CAYENNE_TP_RR: 2.775
+  response: |-
     775100C6218A324F9F1
     7752144236F3664FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.775
-- response: |-
+- expected_values:
+    CAYENNE_TP_RR: 2.8
+  response: |-
     775100C6218A324F9F1
     775214423703764FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.8
-- response: |-
+- expected_values:
+    CAYENNE_TP_RR: 2.9
+  response: |-
     775100C6218A324F9F1
     775214423743F64FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.9
-- response: |-
+- expected_values:
+    CAYENNE_TP_RR: 2.95
+  response: |-
     775100C6218A324F9F1
     775214423764064FFAA
-  expected_values:
-    CAYENNE_TP_RR: 2.95

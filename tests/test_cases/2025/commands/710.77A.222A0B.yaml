@@ -1,8 +1,8 @@
 command_id: 710.77A.222A0B
 test_cases:
-- response: 77A04622A0B3C
-  expected_values:
+- expected_values:
     CAYENNE_SSB_T: 20
-- response: 77A04622A0B3D
-  expected_values:
+  response: 77A04622A0B3C
+- expected_values:
     CAYENNE_SSB_T: 21
+  response: 77A04622A0B3D
