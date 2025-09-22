@@ -16,6 +16,11 @@ test_cases:
     775100C6218A3234AD4
     7752155206A4F68FFAA
 - expected_values:
+    CAYENNE_TP_RR: 2.8
+  response: |-
+    775100C6218A3234AD4
+    775215520704268FFAA
+- expected_values:
     CAYENNE_TP_RR: 3.175
   response: |-
     775100C6218A3234AD4
