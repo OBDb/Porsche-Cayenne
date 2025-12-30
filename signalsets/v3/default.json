@@ -1,97 +1,97 @@
 { "commands": [
-{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A0"}, "freq": 5, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2015, 2017, 2018, 2019, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A0"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_TP_FR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "nullmax": 6.37, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A1"}, "freq": 5, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2015, 2017, 2018, 2019, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A1"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_TP_FL", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "nullmax": 6.37, "unit": "bars" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A2"}, "freq": 5, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2015, 2017, 2018, 2019, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A2"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_TP_RL", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "nullmax": 6.37, "unit": "bars" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A3"}, "freq": 5, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2015, 2017, 2018, 2019, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A3"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_TP_RR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "nullmax": 6.37, "unit": "bars" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A07"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2015, 2017, 2018, 2019, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A07"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_SSB_V", "path": "Battery", "fmt": { "len": 16, "max": 69.54, "min": 4, "div": 100, "add": 4, "unit": "volts" }, "name": "Start/stop battery voltage"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0A"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0A"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_SSB_SENSOR_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Start/stop battery sensor temperature"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0B"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0B"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_SSB_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Start/stop battery sensor temperature"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0C"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2015, 2017, 2018, 2019, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0C"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_SSB_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Start/stop battery state of charge", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_SSB_R", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 2, "div": 10, "unit": "milliohms" }, "name": "Start/stop battery resistance"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_SSB_AH", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "ampereHours" }, "name": "Start/stop battery charge"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A10"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2015, 2017, 2018, 2019, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A10"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
   ]},
-{ "hdr": "715", "rax": "77F", "cmd": {"22": "2354"}, "freq": 3600, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2354"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_CRASH_CNT_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, driver side"}
   ]},
-{ "hdr": "715", "rax": "77F", "cmd": {"22": "2355"}, "freq": 3600, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2355"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_CRASH_CNT_PSNGR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, passenger side"}
   ]},
-{ "hdr": "715", "rax": "77F", "cmd": {"22": "2356"}, "freq": 3600, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2356"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_CRASH_CNT_REAR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rear"}
   ]},
-{ "hdr": "715", "rax": "77F", "cmd": {"22": "2357"}, "freq": 3600, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2357"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_CRASH_CNT_ROLL", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rollover"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "27C4"}, "freq": 5, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2015, 2017, 2018, 2019, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "27C4"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_WNDSHLD_TEMP", "path": "Climate", "fmt": { "len": 8, "max": 108.08, "min": -38.8, "mul": 0.576, "add": -38.8, "unit": "celsius" }, "name": "Windshield temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BA"}, "freq": 15, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BA"}, "freq": 15, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "CAYENNE_OIL_LEVEL", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BD"}, "freq": 15, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BD"}, "freq": 15, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "CAYENNE_OIL_LEVEL_WARN", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level warning threshold"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_EOT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine oil temperature", "description": "Scaling is unknown, needs further validation."}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0302"}, "freq": 900, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0302"}, "freq": 900, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "CAYENNE_DRIVE_TIME", "path": "Stats", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "hours" }, "name": "Total drive time"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0303"}, "freq": 900, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0303"}, "freq": 900, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "CAYENNE_DRIVE_TIME_ECO", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (eco)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in eco mode"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0304"}, "freq": 900, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0304"}, "freq": 900, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "CAYENNE_DRIVE_TIME_SPORT", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (sport)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in sport mode"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0305"}, "freq": 900, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0305"}, "freq": 900, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "CAYENNE_DRIVE_TIME_MANUAL", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (manual)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in manual mode"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210F"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210F"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "1": { "description": "Reverse", "value": "REVERSE" },
@@ -100,19 +100,19 @@
         }}
     }
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2B1B"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2B1B"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2B1C"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2B1C"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_TIRE_FR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2B1D"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2B1D"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2B1E"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2B1E"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_TIRE_RR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]}
