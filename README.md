@@ -1,6 +1,6 @@
 # Porsche Cayenne
 
-This repository contains signal set configurations for the Porsche Cayenne, organized by model year and version. The files are structured to allow for easy differentiation between model generations and variants, ensuring accurate signal mapping for each version of the Porsche Cayenne.
+This repository contains signal set configurations for the Porsche Cayenne, organized by model year and version. The files are structured to allow for easy differentiation between model generations and other vehicle parameters, ensuring accurate signal mapping for each version of the Porsche Cayenne.
 
 ## Generations
 
@@ -64,6 +64,18 @@ The Porsche Cayenne has evolved through three generations, transforming from a r
     - Updated PCM 6.0
     - Enhanced hybridization
     - Revised chassis tuning
+
+- **Fourth Generation (E4: 2026-present)**:
+  - Electric-only platform (Premium Platform Electric - PPE)
+  - Powertrain:
+    - Cayenne Electric: Dual-motor EV system (800+ hp)
+    - 113 kWh battery pack with up to 400 kW charging capability
+    - Regenerative braking up to 600 kW
+  - Features:
+    - 14.25-inch OLED instrument display
+    - 12.25-inch curved OLED infotainment screen
+    - Shared platform with Porsche Macan II
+    - Available in SUV and Coupe body styles
 
 ## Contributing
 
