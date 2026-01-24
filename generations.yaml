@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Porsche_Cayenne"
+
 generations:
   - name: "First Generation (9PA)"
     start_year: 2003
@@ -13,3 +16,8 @@ generations:
     start_year: 2019
     end_year: null
     description: "The third and current generation Cayenne (9YA) builds upon the success of its predecessors with evolutionary styling changes concealing a new platform shared with other Volkswagen Group luxury SUVs. Weight reduction was a key focus, with increased use of aluminum and a lighter, more rigid structure. The base model features a 3.0-liter turbocharged V6 producing 335 horsepower, the S variant uses a 2.9-liter twin-turbocharged V6 with 434 horsepower, and the GTS employs a 4.0-liter twin-turbocharged V8 making 453 horsepower. The Turbo variants extract up to 631 horsepower from the 4.0-liter twin-turbo V8 in the Turbo GT model. Hybrid options expanded with the E-Hybrid (455 horsepower) and Turbo S E-Hybrid (670 horsepower), both offering plug-in capability and extended electric range. All models utilize an 8-speed Tiptronic automatic transmission. The exterior design features a wider, more horizontal emphasis with a continuous light strip across the rear. For the first time, the Cayenne is also available in a 'Coupe' body style featuring a more steeply raked roofline and unique rear styling. The interior has been thoroughly modernized with the Porsche Advanced Cockpit concept, reducing physical buttons in favor of touch-sensitive surfaces and larger digital displays. Chassis technology has advanced with options including rear-wheel steering, active anti-roll bars, and three-chamber air suspension. This generation further refines the Cayenne's balance of luxury, versatility, and performance that has made it a cornerstone of Porsche's lineup."
+
+  - name: "Fourth Generation (E4)"
+    start_year: 2026
+    end_year: null
+    description: "The fourth-generation Porsche Cayenne was officially unveiled on November 19, 2025, and will commence production in 2026. This generation marks a significant shift as it is exclusively available with a battery-electric powertrain as the Cayenne Electric, built on the Volkswagen Group Premium Platform Electric (PPE). The electric Cayenne features a 113 kWh battery pack (108 kWh net) with support for rapid charging at up to 400 kW. The dual-motor Turbo model produces over 804 horsepower (600 kW) with surge power capabilities reaching 938 horsepower (700 kW) and up to 1,072 horsepower (800 kW) with launch control. The interior has been modernized with a 14.25-inch OLED instrument display and a curved 12.25-inch OLED infotainment screen. Regenerative braking can reach 600 kW, supporting deceleration exceeding 0.5 Gs. While no fourth-generation internal combustion engine Cayenne has been confirmed, Porsche has announced another upgrade to the third-generation model that will extend its lifecycle beyond 2030."
