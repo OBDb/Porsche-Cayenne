@@ -43,19 +43,19 @@
   "signals": [
     {"id": "CAYENNE_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
   ]},
-{ "hdr": "715", "rax": "77F", "cmd": {"22": "2354"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2013, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2354"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_CRASH_CNT_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, driver side"}
   ]},
-{ "hdr": "715", "rax": "77F", "cmd": {"22": "2355"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2013, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2355"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_CRASH_CNT_PSNGR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, passenger side"}
   ]},
-{ "hdr": "715", "rax": "77F", "cmd": {"22": "2356"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2013, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2356"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_CRASH_CNT_REAR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rear"}
   ]},
-{ "hdr": "715", "rax": "77F", "cmd": {"22": "2357"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2013, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2357"}, "freq": 3600, "dbgfilter": { "to": 2011, "years": [2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_CRASH_CNT_ROLL", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rollover"}
   ]},
@@ -91,7 +91,7 @@
   "signals": [
     {"id": "CAYENNE_DRIVE_TIME_MANUAL", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (manual)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in manual mode"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210F"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2015, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210F"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2015, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CAYENNE_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "1": { "description": "Reverse", "value": "REVERSE" },
