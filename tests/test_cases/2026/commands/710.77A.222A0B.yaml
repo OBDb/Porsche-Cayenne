@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAYENNE_SSB_T: 22
   response: 77A04622A0B3E
+- expected_values:
+    CAYENNE_SSB_T: 23
+  response: 77A04622A0B3F

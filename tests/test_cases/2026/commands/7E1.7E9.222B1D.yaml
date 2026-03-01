@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAYENNE_TIRE_RL_SPD: 0
   response: 7E905622B1D0000
+- expected_values:
+    CAYENNE_TIRE_RL_SPD: 3.4
+  response: 7E905622B1D0022
