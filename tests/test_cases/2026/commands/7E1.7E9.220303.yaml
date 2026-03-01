@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.220303
+test_cases:
+- expected_values:
+    CAYENNE_DRIVE_TIME_ECO: 1.2
+  response: '7E90462030303'
