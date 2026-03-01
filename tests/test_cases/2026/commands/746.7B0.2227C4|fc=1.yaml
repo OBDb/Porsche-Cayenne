@@ -1,10 +1,20 @@
 command_id: 746.7B0.2227C4|fc=1
 test_cases:
 - expected_values:
+    CAYENNE_WNDSHLD_TEMP: 26.864
+  response: |-
+    7B010086227C4722A12
+    7B0211C34AAAAAAAAAA
+- expected_values:
     CAYENNE_WNDSHLD_TEMP: 29.744
   response: |-
-    7B010086227C477A982
-    7B021143EAAAAAAAAAA
+    7B010086227C4776A62
+    7B0212039AAAAAAAAAA
+- expected_values:
+    CAYENNE_WNDSHLD_TEMP: 30.32
+  response: |-
+    7B010086227C4782A92
+    7B0212039AAAAAAAAAA
 - expected_values:
     CAYENNE_WNDSHLD_TEMP: 30.32
   response: |-
@@ -25,6 +35,11 @@ test_cases:
   response: |-
     7B010086227C4792972
     7B0211442AAAAAAAAAA
+- expected_values:
+    CAYENNE_WNDSHLD_TEMP: 30.896
+  response: |-
+    7B010086227C479EA62
+    7B021203CAAAAAAAAAA
 - expected_values:
     CAYENNE_WNDSHLD_TEMP: 31.472
   response: |-
