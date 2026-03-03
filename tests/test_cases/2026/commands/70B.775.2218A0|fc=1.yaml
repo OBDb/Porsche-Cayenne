@@ -25,3 +25,23 @@ test_cases:
   response: |-
     775100C6218A026BE25
     775212420594158FFAA
+- expected_values:
+    CAYENNE_TP_FR: 2.225
+  response: |-
+    775100C6218A026BE25
+    775212420594258FFAA
+- expected_values:
+    CAYENNE_TP_FR: 2.225
+  response: |-
+    775100C6218A026BE25
+    775212420594358FFAA
+- expected_values:
+    CAYENNE_TP_FR: 2.25
+  response: |-
+    775100C6218A026BE25
+    7752124205A4358FFAA
+- expected_values:
+    CAYENNE_TP_FR: 2.25
+  response: |-
+    775100C6218A026BE25
+    7752124205A4458FFAA
