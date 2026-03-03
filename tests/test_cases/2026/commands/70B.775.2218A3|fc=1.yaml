@@ -5,3 +5,13 @@ test_cases:
   response: |-
     775100C6218A326BE46
     775210A23674164FFAA
+- expected_values:
+    CAYENNE_TP_RR: 2.6
+  response: |-
+    775100C6218A326BE46
+    775210A23684164FFAA
+- expected_values:
+    CAYENNE_TP_RR: 2.6
+  response: |-
+    775100C6218A326BE46
+    775210A23684264FFAA
