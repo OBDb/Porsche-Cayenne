@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211BE
+test_cases:
+- expected_values:
+    CAYENNE_EOT: 3667
+  response: 7E8056211BE0E53
+- expected_values:
+    CAYENNE_EOT: 3687
+  response: 7E8056211BE0E67
