@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2211BE
 test_cases:
 - expected_values:
-    CAYENNE_EOT: 3667
-  response: 7E8056211BE0E53
+    CAYENNE_EOT: 3666
+  response: 7E8056211BE0E52
 - expected_values:
-    CAYENNE_EOT: 3687
-  response: 7E8056211BE0E67
+    CAYENNE_EOT: 3690
+  response: 7E8056211BE0E6A
