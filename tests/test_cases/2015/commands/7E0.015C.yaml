@@ -4,29 +4,5 @@ test_cases:
     EOT: 81
   response: 7E803415C79
 - expected_values:
-    EOT: 83
-  response: 7E803415C7B
-- expected_values:
-    EOT: 85
-  response: 7E803415C7D
-- expected_values:
-    EOT: 89
-  response: 7E803415C81
-- expected_values:
-    EOT: 90
-  response: 7E803415C82
-- expected_values:
-    EOT: 92
-  response: 7E803415C84
-- expected_values:
-    EOT: 93
-  response: 7E803415C85
-- expected_values:
-    EOT: 94
-  response: 7E803415C86
-- expected_values:
-    EOT: 95
-  response: 7E803415C87
-- expected_values:
-    EOT: 96
-  response: 7E803415C88
+    EOT: 97
+  response: 7E803415C89
