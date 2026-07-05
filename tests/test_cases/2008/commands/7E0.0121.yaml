@@ -1,0 +1,8 @@
+command_id: 7E0.0121
+test_cases:
+- expected_values:
+    MIL_DIST: 312
+  response: '7E80441210138'
+- expected_values:
+    MIL_DIST: 317
+  response: 7E8044121013D
