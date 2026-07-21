@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAYENNE_DRIVE_TIME: 1158.75
   response: 7E905620302121B
+- expected_values:
+    CAYENNE_DRIVE_TIME: 1159
+  response: 7E905620302121C

@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     CAYENNE_SSB_AH: 35
   response: 77A04622A0F23
+- expected_values:
+    CAYENNE_SSB_AH: 36
+  response: 77A04622A0F24
+- expected_values:
+    CAYENNE_SSB_AH: 37
+  response: 77A04622A0F25
+- expected_values:
+    CAYENNE_SSB_AH: 38
+  response: 77A04622A0F26
+- expected_values:
+    CAYENNE_SSB_AH: 39
+  response: 77A04622A0F27
