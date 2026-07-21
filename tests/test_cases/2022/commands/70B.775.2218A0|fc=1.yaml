@@ -1,0 +1,7 @@
+command_id: 70B.775.2218A0|fc=1
+test_cases:
+- expected_values:
+    CAYENNE_TP_FR: 2.95
+  response: |-
+    775100C6218A022EA63
+    77521E22376446CFFAA
