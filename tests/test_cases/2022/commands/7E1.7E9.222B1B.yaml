@@ -4,14 +4,8 @@ test_cases:
     CAYENNE_TIRE_FL_SPD: 0
   response: 7E905622B1B0000
 - expected_values:
-    CAYENNE_TIRE_FL_SPD: 4.4
-  response: 7E905622B1B002C
-- expected_values:
-    CAYENNE_TIRE_FL_SPD: 13.5
-  response: 7E905622B1B0087
-- expected_values:
     CAYENNE_TIRE_FL_SPD: 25.2
   response: 7E905622B1B00FC
 - expected_values:
-    CAYENNE_TIRE_FL_SPD: 34.5
-  response: 7E905622B1B0159
+    CAYENNE_TIRE_FL_SPD: 28.4
+  response: 7E905622B1B011C

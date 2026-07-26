@@ -11,6 +11,11 @@ test_cases:
     775100C6218A222E08B
     775216321723E68FFAA
 - expected_values:
+    CAYENNE_TP_RL: 2.9
+  response: |-
+    775100C6218A222E08B
+    775216321744068FFAA
+- expected_values:
     CAYENNE_TP_RL: 2.95
   response: |-
     775100C6218A222E08B

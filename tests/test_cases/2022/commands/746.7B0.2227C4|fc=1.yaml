@@ -8,13 +8,13 @@ test_cases:
 - expected_values:
     CAYENNE_WNDSHLD_TEMP: 28.016
   response: |-
+    7B010086227C47424A1
+    7B021D459AAAAAAAAAA
+- expected_values:
+    CAYENNE_WNDSHLD_TEMP: 28.016
+  response: |-
     7B010086227C474E6C1
     7B021F04BAAAAAAAAAA
-- expected_values:
-    CAYENNE_WNDSHLD_TEMP: 29.744
-  response: |-
-    7B010086227C47724F1
-    7B021D85DAAAAAAAAAA
 - expected_values:
     CAYENNE_WNDSHLD_TEMP: 29.744
   response: |-

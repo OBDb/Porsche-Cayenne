@@ -7,5 +7,8 @@ test_cases:
     CAYENNE_SSB_SENSOR_T: 21
   response: 77A04622A0A3D
 - expected_values:
+    CAYENNE_SSB_SENSOR_T: 29
+  response: 77A04622A0A45
+- expected_values:
     CAYENNE_SSB_SENSOR_T: 30
   response: 77A04622A0A46
