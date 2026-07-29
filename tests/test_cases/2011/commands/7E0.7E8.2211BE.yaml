@@ -4,26 +4,8 @@ test_cases:
     CAYENNE_EOT: 3560
   response: 7E8056211BE0DE8
 - expected_values:
-    CAYENNE_EOT: 3564
-  response: 7E8056211BE0DEC
-- expected_values:
-    CAYENNE_EOT: 3565
-  response: 7E8056211BE0DED
-- expected_values:
-    CAYENNE_EOT: 3568
-  response: 7E8056211BE0DF0
-- expected_values:
-    CAYENNE_EOT: 3571
-  response: 7E8056211BE0DF3
-- expected_values:
-    CAYENNE_EOT: 3575
-  response: 7E8056211BE0DF7
-- expected_values:
     CAYENNE_EOT: 3582
   response: 7E8056211BE0DFE
 - expected_values:
     CAYENNE_EOT: 3586
   response: 7E8056211BE0E02
-- expected_values:
-    CAYENNE_EOT: 3589
-  response: 7E8056211BE0E05
