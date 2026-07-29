@@ -80,6 +80,8 @@ unsupported_commands_by_ecu:
   - 710.77A.222A10:CAYENNE_SSB_V_REST
   "746":
   - 746.7B0.2227C4|fc=1:CAYENNE_WNDSHLD_TEMP
+  "7DF":
+  - 7DF.0124
   "7E0":
   - 7E0.7E8.2211BA:CAYENNE_OIL_LEVEL
   "7E1":
