@@ -1,23 +1,23 @@
 command_id: 710.77A.222A07
 test_cases:
 - expected_values:
-    CAYENNE_SSB_V: 69.54
+    CAYENNE_SSB_V: 13.125
   response: 77A05622A0723A5
 - expected_values:
-    CAYENNE_SSB_V: 69.54
+    CAYENNE_SSB_V: 13.169
   response: 77A05622A0723D1
 - expected_values:
-    CAYENNE_SSB_V: 69.54
+    CAYENNE_SSB_V: 13.179
   response: 77A05622A0723DB
 - expected_values:
-    CAYENNE_SSB_V: 69.54
+    CAYENNE_SSB_V: 13.188
   response: 77A05622A0723E4
 - expected_values:
-    CAYENNE_SSB_V: 69.54
+    CAYENNE_SSB_V: 13.193
   response: 77A05622A0723E9
 - expected_values:
-    CAYENNE_SSB_V: 69.54
+    CAYENNE_SSB_V: 13.198
   response: 77A05622A0723EE
 - expected_values:
-    CAYENNE_SSB_V: 69.54
+    CAYENNE_SSB_V: 13.218
   response: 77A05622A072402
