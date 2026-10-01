@@ -21,7 +21,7 @@
   ]},
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A07"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2024], "from": 2027 },
   "signals": [
-    {"id": "CAYENNE_SSB_V", "path": "Battery", "fmt": { "len": 16, "max": 69.54, "min": 4, "div": 100, "add": 4, "unit": "volts" }, "name": "Start/stop battery voltage"}
+    {"id": "CAYENNE_SSB_V", "path": "Battery", "fmt": { "len": 16, "max": 69.53, "min": 4, "div": 1000, "add": 4, "unit": "volts" }, "name": "Start/stop battery voltage"}
   ]},
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A0A"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
@@ -33,7 +33,7 @@
   ]},
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A0C"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2024], "from": 2027 },
   "signals": [
-    {"id": "CAYENNE_SSB_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Start/stop battery state of charge", "suggestedMetric": "stateOfCharge"}
+    {"id": "CAYENNE_SSB_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Start/stop battery state of charge"}
   ]},
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
@@ -45,7 +45,7 @@
   ]},
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A10"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2024], "from": 2027 },
   "signals": [
-    {"id": "CAYENNE_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
+    {"id": "CAYENNE_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 34.5, "min": 9, "div": 10, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
   ]},
 { "hdr": "715", "rax": "77F", "cmd": {"22": "2354"}, "freq": 3600, "dbgfilter": { "to": 2010, "years": [2017, 2018, 2019, 2020, 2021, 2024], "from": 2027 },
   "signals": [
