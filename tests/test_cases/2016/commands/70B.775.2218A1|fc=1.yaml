@@ -1,0 +1,12 @@
+command_id: 70B.775.2218A1|fc=1
+test_cases:
+- expected_values:
+    CAYENNE_TP_FL: null
+  response: |-
+    775100D6218A12230CA
+    775216C03FF16351A3E
+- expected_values:
+    CAYENNE_TP_FL: null
+  response: |-
+    775100D6218A12230CA
+    775216C03FFFFFF1A7F

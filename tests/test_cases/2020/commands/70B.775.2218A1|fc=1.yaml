@@ -6,11 +6,6 @@ test_cases:
     775100C6218A1231A9F
     77521B523394070FFAA
 - expected_values:
-    CAYENNE_TP_FL: 2.775
-  response: |-
-    775100C6218A1231A9F
-    77521B5236F4A70FFAA
-- expected_values:
     CAYENNE_TP_FL: 2.8
   response: |-
     775100C6218A1231A9F
@@ -21,7 +16,7 @@ test_cases:
     775100C6218A1231A9F
     77521B523714F70FFAA
 - expected_values:
-    CAYENNE_TP_FL: 3.2
+    CAYENNE_TP_FL: null
   response: |-
     775100C6218A1231A9F
-    77521B523804370FFAA
+    77521B523FFA770FFAA

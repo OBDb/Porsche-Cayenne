@@ -1,0 +1,42 @@
+command_id: 70B.775.2218A0|fc=1
+test_cases:
+- expected_values:
+    CAYENNE_TP_FR: null
+  response: |-
+    775100D6218A0221ED3
+    775216E02FF17361A3F
+- expected_values:
+    CAYENNE_TP_FR: null
+  response: |-
+    775100D6218A0221ED3
+    775216E02FF18371A3F
+- expected_values:
+    CAYENNE_TP_FR: null
+  response: |-
+    775100D6218A0221ED3
+    775216E02FF19481A3E
+- expected_values:
+    CAYENNE_TP_FR: null
+  response: |-
+    775100D6218A0221ED3
+    775216E02FF194B1A3F
+- expected_values:
+    CAYENNE_TP_FR: null
+  response: |-
+    775100D6218A0221ED3
+    775216E02FF1A4B1A3F
+- expected_values:
+    CAYENNE_TP_FR: null
+  response: |-
+    775100D6218A0221ED3
+    775216E02FF1A4C1A3F
+- expected_values:
+    CAYENNE_TP_FR: null
+  response: |-
+    775100D6218A0221ED3
+    775216E02FF1A4E1A3F
+- expected_values:
+    CAYENNE_TP_FR: null
+  response: |-
+    775100D6218A0221ED3
+    775216E02FFFFFF1A7F
