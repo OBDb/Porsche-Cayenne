@@ -20,3 +20,8 @@ test_cases:
   response: |-
     775100C6218A226BE45
     77521B122664364FFAA
+- expected_values:
+    CAYENNE_TP_RL: null
+  response: |-
+    775100C6218A226BE45
+    77521B122FFA764FFAA
