@@ -16,6 +16,11 @@ test_cases:
     775100C6218A1260306
     775217621674058FFAA
 - expected_values:
+    CAYENNE_TP_FL: 2.625
+  response: |-
+    775100C6218A1260306
+    775217621694058FFAA
+- expected_values:
     CAYENNE_TP_FL: null
   response: |-
     775100C6218A1260306
