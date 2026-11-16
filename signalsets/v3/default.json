@@ -97,7 +97,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210F"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2017, 2018, 2019, 2020, 2024], "from": 2027 },
   "signals": [
-    {"id": "CAYENNE_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
+    {"id": "CAYENNE_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "suggestedMetric": "gearSelector", "fmt": {"len": 8, "map": {
           "1": { "description": "Reverse", "value": "REVERSE" },
           "2": { "description": "Park",    "value": "PARK" },
           "3": { "description": "Drive",   "value": "DRIVE" }
