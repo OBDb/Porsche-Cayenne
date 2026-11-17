@@ -1,8 +1,0 @@
-command_id: 710.77A.222A0C
-test_cases:
-- expected_values:
-    CAYENNE_SSB_SOC: 62
-  response: 77A04622A0C3E
-- expected_values:
-    CAYENNE_SSB_SOC: 74
-  response: 77A04622A0C4A

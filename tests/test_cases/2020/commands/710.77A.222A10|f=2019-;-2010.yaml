@@ -1,0 +1,8 @@
+command_id: 710.77A.222A10|f=2019-;-2010
+test_cases:
+- expected_values:
+    CAYENNE_SSB_V_REST: 13.2
+  response: 77A04622A102A
+- expected_values:
+    CAYENNE_SSB_V_REST: 13.3
+  response: 77A04622A102B

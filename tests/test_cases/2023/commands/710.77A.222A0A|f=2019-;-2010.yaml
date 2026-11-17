@@ -1,0 +1,11 @@
+command_id: 710.77A.222A0A|f=2019-;-2010
+test_cases:
+- expected_values:
+    CAYENNE_SSB_SENSOR_T: 20
+  response: 77A04622A0A3C
+- expected_values:
+    CAYENNE_SSB_SENSOR_T: 30
+  response: 77A04622A0A46
+- expected_values:
+    CAYENNE_SSB_SENSOR_T: 31
+  response: 77A04622A0A47
